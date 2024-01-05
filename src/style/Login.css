@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.login_page{
+    min-height:100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    font-size: 2rem;
+    text-align: center;
+   
+
+    background-image: url('../assets/loginBackground-.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+
+}
+
+.login_page .container{
+
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(1, 26, 29, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+.container label , .container input {
+    padding: .8rem;
+    margin-bottom: .4rem;
+    outline: none;
+    border-radius: .4rem;
+    border: none;
+}
+
+.container .subtmitBtn{
+    padding: .8rem;
+    border-radius: .4rem;
+    border: none;
+    font-weight:bolder;
+    background: #6fa7e7;
+}
+.container .subtmitBtn:hover{
+    background: white;
+    color: rgb(7, 2, 78);
+    cursor: pointer;
+}
+
+.container .signInDiv{
+    display: flex;
+    flex-direction: column;
+}
+.container .signInDiv small{
+    font-size: 1rem;
+    color: black;
+}
