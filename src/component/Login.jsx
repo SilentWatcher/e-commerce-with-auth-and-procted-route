@@ -60,8 +60,7 @@ function Login() {
             <div className='signInDiv'>
             {/* <Link to="/home"><button className='subtmitBtn' type='submit' onClick={signIn}>Sign In</button></Link> */}
             <button className='subtmitBtn' type='submit' onClick={()=>{signIn()}}>Sign In</button>
-                <small>username: 'kminchelle',password: '0lelplR',</small>
-                <small>username: 'atuny0',password: '9uQFF1Lh',</small>
+
             </div>
         </div>
     </div>
